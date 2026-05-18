@@ -1,17 +1,3 @@
-"""
-Training Script — Q-Learning xApp for O-RAN Resource Allocation
-Author: Shankar M, Chennai Institute of Technology
-
-Status: Work in Progress
-- [x] Environment simulation (oran_env.py)
-- [x] Tabular Q-learning agent (q_agent.py)
-- [x] Rule-based baselines (baseline.py)
-- [x] Training loop with logging
-- [ ] DQN upgrade (planned — neural function approximator)
-- [ ] OSC Near-RT RIC E2 interface integration (planned)
-- [ ] Real gNB testbed connection via srsRAN (planned)
-"""
-
 import numpy as np
 import os
 import json
